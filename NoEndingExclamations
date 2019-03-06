@@ -1,0 +1,7 @@
+def remove(s):
+    if s.endswith('!'):
+        while s.endswith('!'):
+            s=s[:-1]
+        return s
+    else:
+        return s
