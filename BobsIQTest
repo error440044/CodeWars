@@ -1,0 +1,25 @@
+def iq_test(numbers):
+#let it be complicated....brain farts, brain farts everywhere
+    l = numbers.split()
+    
+    even = 0
+    odd = 0
+    
+    for num in l:
+        if int(num) % 2==0:
+            even+=1
+        else:
+            odd += 1
+            
+        
+    if even > odd:
+        for num in l:
+            if int(num) % 2 != 0:
+                return l.index(num)+1
+                
+    else:
+        for num in l:
+            if int(num) % 2 == 0:
+                return l.index(num)+1
+               
+  # find out which one of the given numbers differs from the others
