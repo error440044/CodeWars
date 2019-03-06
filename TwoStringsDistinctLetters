@@ -1,0 +1,4 @@
+def longest(s1, s2):
+    s = set(s1+s2)
+    b =''.join(s)
+    return ''.join(sorted(b))
