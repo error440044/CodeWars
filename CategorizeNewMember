@@ -1,0 +1,12 @@
+# Western Suburbs Croquet Club Members Categorization
+
+def openOrSenior(data):
+    # Hmmm.. Where to start?
+    status = []
+    for num in data:
+        if num[0] >= 55 and num[1] > 7:
+            status.append('Senior')
+        else:
+            status.append('Open')
+    
+    return status
