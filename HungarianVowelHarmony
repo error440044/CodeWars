@@ -1,0 +1,6 @@
+def dative(word):
+    vowel = [w for w in word if w in "aáoóuúeéiíöőüű"][-1]
+    if vowel in ('a','á','o','ó','u','ú'):
+        return word+'nak'
+    elif vowel in ('e','é','i','í','ö','ő','ü','ű'):
+        return word+'nek'
