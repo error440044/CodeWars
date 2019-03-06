@@ -1,0 +1,15 @@
+def get_sum(a,b):
+    
+    if a==b:
+        return a
+    else:
+        if b<a:
+            first = b
+            second = a
+        elif a<b:
+            first = a
+            second = b
+            
+    return sum(range(first,second+1,1))
+    
+  #  Given two integers a and b, which can be positive or negative, find the sum of all the numbers between including them too and return it
