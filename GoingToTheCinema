@@ -1,0 +1,16 @@
+import math
+
+def movie(card, ticket, perc):
+    
+    i = 0
+    a = 0
+    b = card
+    
+    while math.ceil(b) >= a:
+        i += 1
+        a += ticket
+        b += ticket * (perc ** i)
+    
+    return i
+    
+   
