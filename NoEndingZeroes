@@ -1,0 +1,6 @@
+def no_boring_zeros(n):
+    a = str(n).rstrip('0')
+    if a=="" or a == " ":
+        return 0
+    else:
+        return int(a)
